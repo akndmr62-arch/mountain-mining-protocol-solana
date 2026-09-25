@@ -1,0 +1,19 @@
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+mountain_mining = "8VVeezk1LbGGqMMevb2WtisLgqQHvcQ6EYy5ozLgJkDX"
+
+[programs.devnet]
+mountain_mining = "8VVeezk1LbGGqMMevb2WtisLgqQHvcQ6EYy5ozLgJkDX"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npm test -- --reporter spec"
